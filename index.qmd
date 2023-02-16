@@ -15,7 +15,8 @@ library(tidyverse)
 ```{r}
 
 ggplot(data = storms) +
-  geom_point (mapping = aes(x = pressure, y=wind, color = category))
+  geom_point (mapping = aes(x = pressure, y=wind, color = category)) +
+  labs(title = "Stormy")
 
 ```
 
