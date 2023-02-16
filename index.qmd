@@ -1,0 +1,22 @@
+---
+title: "class 5"
+format: 
+  html:
+    self-contained: true
+editor: visual
+---
+## Exercise 7
+
+```{r}
+
+library(tidyverse)
+
+```
+```{r}
+
+ggplot(data = storms) +
+  geom_point (mapping = aes(x = pressure, y=wind, color = category))
+
+```
+
+
